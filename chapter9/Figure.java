@@ -5,4 +5,10 @@ public abstract class Figure {
         this.x = inputX;
         this.y = inputY;
     }
+
+    protected void header(String name) {
+        System.out.printf("%s(%d, %d)\n", name, this.x, this.y);
+    }
+
+    protected abstract void draw();
 }

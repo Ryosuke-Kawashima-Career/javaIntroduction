@@ -1,14 +1,15 @@
-public class Circle {
-    int x, y;
+public class Circle extends Figure {
+//    int x, y; are comming from Figure
     int radius;
 
     Circle(int inputX, int inputY, int inputRadius) {
-        this.x = inputX;
-        this.y = inputY;
+        super(inputX, inputY);
         this.radius = inputRadius;
     }
 
+    @Override
     public void draw() {
+        super.header("circle");
         System.out.printf("circle(%d, %d) radius: %d\n", this.x, this.y, this.radius);
     }
 }
