@@ -4,7 +4,8 @@
       "Bash(cd:*)",
       "Read(//c/Program Files/**)",
       "Bash(winget install:*)",
-      "Bash(export:*)"
+      "Bash(export:*)",
+      "Bash(mv:*)"
     ]
   }
 }
