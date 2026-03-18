@@ -5,7 +5,13 @@
       "Read(//c/Program Files/**)",
       "Bash(winget install:*)",
       "Bash(export:*)",
-      "Bash(mv:*)"
+      "Bash(mv:*)",
+      "Bash(mkdir -p \"D:/Dev/javaIntroduction/chapter10\")",
+      "Bash(touch \"D:/Dev/javaIntroduction/chapter10/Button.java\" \"D:/Dev/javaIntroduction/chapter10/Task.java\" \"D:/Dev/javaIntroduction/chapter10/Window.java\" \"D:/Dev/javaIntroduction/chapter10/Item.java\")",
+      "Bash(javac Window.java)",
+      "Bash(java Window)",
+      "Bash(javac Shop.java)",
+      "Bash(java Shop)"
     ]
   }
 }
