@@ -1,5 +1,5 @@
 public class Menu {
-    public static class Item {
+    public class Item {
         private String name;
         private int price;
         Item(String inputName, int inputPrice) {
