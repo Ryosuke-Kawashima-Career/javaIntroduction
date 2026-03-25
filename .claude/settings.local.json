@@ -11,7 +11,9 @@
       "Bash(javac Window.java)",
       "Bash(java Window)",
       "Bash(javac Shop.java)",
-      "Bash(java Shop)"
+      "Bash(java Shop)",
+      "Bash(javac chapter10/Year.java)",
+      "Bash(java -cp chapter10 Year)"
     ]
   }
 }

@@ -17,8 +17,20 @@ public class Menu {
     }
 
     public void print() {
+        class localItem {
+            private String name;
+            private int price;
+            localItem(String inputName, int inputPrice) {
+                this.name = inputName;
+                this.price = inputPrice;
+            }
+            public void print() {
+                System.out.println(this.name + " is a " + this.price + "yen item!");
+            }
+        }
         for (Item item : this.items) {
-            item.print();
+            localItem local = new localItem(item.name, item.price);
+            local.print();
 
         }
     }
